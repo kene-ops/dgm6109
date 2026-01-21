@@ -17,67 +17,28 @@ let border = drawing.append("rect")
     .attr("fill", "none")
     .attr("stroke", "red");
 
+
+
 /* Write your code for Project 1 beneath this comment */
 
-//i will draw three overlapping circles to make up the elephant's head
+  <polygon points="45,100 125,125 125,230 85,230" fill="#D3D3D3" />
+  <polygon points="455,100 375,125 375,230 415,230" fill="#D3D3D3" />
 
-let elephantHeadOne = drawing.append ("circle")
-.attr ("cx", 200)
-.attr ("cy", 150)
-.attr ("r", 60)
-.attr ("fill", "gray");
+  <polygon points="175,220 175,260 155,230" fill="#FFFFE0" />
+  <polygon points="325,220 325,260 345,230" fill="#FFFFE0" />
 
+  <rect x="215" y="200" width="70" height="110" fill="#808080" />
+  <line x1="215" y1="235" x2="285" y2="245" stroke="black" stroke-width="1" />
+  <line x1="215" y1="260" x2="285" y2="270" stroke="black" stroke-width="1" />
+  <line x1="215" y1="285" x2="285" y2="295" stroke="black" stroke-width="1" />
 
-let elephantHeadTwo = drawing.append ("circle")
-.attr ("cx", 260)
-.attr ("cy", 150)
-.attr ("r", 60)
-.attr ("fill", "gray");
+  <circle cx="175" cy="150" r="75" fill="#808080" />
+  <circle cx="325" cy="150" r="75" fill="#808080" />
+  <rect x="175" y="100" width="150" height="120" fill="#808080" />
 
-let elephantHeadThree = drawing.append ("circle")
-.attr ("cx", 320)
-.attr ("cy", 150)
-.attr ("r", 60)
-.attr ("fill", "gray");
-
-//smaller circles of elephant's eyes to occupy appropriate spaces
-
-let elephantLeftEye = drawing.append ("circle")
-.attr ("cx", 235)
-.attr ("cy", 150)
-.attr ("r", 8)
-.attr ("fill", "black");
-
-let elephantRightEye = drawing.append ("circle")
-.attr ("cx", 285)
-.attr ("cy", 150)
-.attr ("r", 8)
-.attr ("fill", "black");
-
-//drawing of polygons for elephant's ears 
-
-let elephantEarLeft = drawing.append ("polygon")
-.attr ("points", closedPolygon (130,150,200,90,180,240))
-.attr ("fill", "gray");
-
-let elephantRightEar = drawing.append ("polygon")
-.attr ("points", closedPolygon (390, 150, 320, 90, 340, 240))
-.attr ("fill", "gray");
-
-//polygons to represent the elephant's tusks
-
-let elephantLeftTusk = drawing.append ("polygon")
-.attr ("points", closedPolygon (230, 190, 225, 240, 230, 240))
-.attr ("fill", "ash");
-
-let elephantRightTusk = drawing.append ("polygon")
-.attr ("points", closedPolygon (290, 190, 285, 240, 290, 240))
-.attr ("fill", "ash");
-
-//polygons to represent elephant trunk
-
-let elephantTrunk = drawing.append ("polygon")
-.attr ("points,", closedPolygon (245, 210, 40, 70))
-.attr ("fill", "gray");
-
-
+  <ellipse cx="190" cy="160" rx="20" ry="25" fill="white" />
+  <ellipse cx="190" cy="165" rx="8" ry="10" fill="black" />
+  
+  <ellipse cx="310" cy="160" rx="20" ry="25" fill="white" />
+  <ellipse cx="310" cy="165" rx="8" ry="10" fill="black" />
+</svg>
