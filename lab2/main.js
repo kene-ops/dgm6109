@@ -24,7 +24,7 @@ let elephantEarLeft = drawing.append ("polygon")
 .attr ("fill", "#D3D3D3");
 
 let elephantRightEar = drawing.append ("polygon")
-.attr ("points", closedPolygon (450,110,375,125,385,245,410,230))
+.attr ("points", closedPolygon (450,110,375,125,385,245,410,240))
 .attr ("fill", "#D3D3D3");
 
 let elephantBackEar = drawing.append ("circle")
@@ -53,14 +53,14 @@ let elephantRightTusk = drawing.append ("polygon")
 //i will draw three overlapping circles to make up the elephant's head
 
 let elephantHeadSideOne = drawing.append ("circle")
-.attr ("cx", 175)
+.attr ("cx", 190)
 .attr ("cy", 150)
 .attr ("r", 75)
 .attr ("fill", "gray");
 
 
 let elephantHeadSideTwo = drawing.append ("circle")
-.attr ("cx", 320)
+.attr ("cx", 305)
 .attr ("cy", 150)
 .attr ("r", 75)
 .attr ("fill", "gray");
@@ -106,5 +106,26 @@ let elephantTrunk = drawing.append ("rect")
 .attr ("height", 110)
 .attr ("fill", "gray");
 
+let elephanFold = drawing.append ("line")
+.attr ("x1", 215)
+.attr ("y1", 235)
+.attr ("x2", 285)
+.attr ("y2", 245)
+.attr ("stroke", "black")
+.attr ("stroke-width", 2)
 
+let elephantFoldTwo = drawing.append ("line")
+.attr ("x1", 216)
+.attr ("y1", 260)
+.attr ("x2", 285)
+.attr ("y2", 270)
+.attr ("stroke-width", 2)
+.attr ("stroke", "black")
 
+let trunkFoldThree = drawing.append ("line")
+.attr ("x1", 215)
+.attr ("y1", 285)
+.attr ("x2", 285)
+.attr ("y2", 295)
+.attr ("stroke-width", 2)
+.attr ("stroke", "black")
