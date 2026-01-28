@@ -1,0 +1,61 @@
+/* change the default font and character
+*/
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: 1rem;
+   font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2.2rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+}
+
+/* resize the default width of the paragraph element so as to remain responsive when viewport shrinks
+*/
+p, ol, ul {
+    max-width: 50rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+}
+/* add hover and focus state style to image link
+*/
+a {
+    color:rgb(255, 128, 0);
+    transition-property: color;
+    transition-duration: 0.75;
+}
+a:hover, a:focus {
+    color:aqua;
+    text-decoration: none;
+}
+
+/* add hover and focus state style to the in-text link
+*/
+.nav-main-item {
+    background-color: red;
+    color:rgb(205, 185, 165);
+    text-decoration: none;
+    font-size: 2;
+    padding: 1rem 1.5rem;
+}
+.nav-main-item:hover, .nav-main-item:focus {
+    background-color:black;
+}
