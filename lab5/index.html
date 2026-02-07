@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>kenechukwu okongwu Lab #3 - winter 2026</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="libraries/elephant.js"></script>
+
+    <!-- Include classmate scripts here. Put them in directory "elements" in your project -->
+    <script src="elements/frog.js"></script>
+    <script src="elements/caterpillar.js"></script>
+    <script src="elements/drawButterfly.js"></script>
+    <script src="elements/trumpeter.js"></script>
+</head>
+
+<body>
+    <h2>Lab5 Drawing</h2>
+    <!-- first element -->
+
+    <p>
+        Select the first element for your drawing:
+        <select id="choice1">
+        <option value="elephant">Elephant</option>
+        <option value="frog">Frog</option>
+        <option value="caterpillar">Caterpillar</option>
+        <option value="drawButterfly">Butterfly</option>
+        <option value="trumpeter">Trumpeter</option>
+    </select>
+    </p>
+    <p>Position: x:<input type="number" id="x1" value="100">, y:<input type="number" id="y1" value="300"></p>
+
+    <!-- second element -->
+    <p>
+        Select the second element for your drawing:
+        <select id="choice2">
+        <option value="elephant">Elephant</option>
+        <option value="frog">Frog</option>
+        <option value="caterpillar">Caterpillar</option>
+        <option value="drawButterfly">Butterfly</option>
+        <option value="trumpeter">Trumpeter</option>
+    </select>
+    <p>Position: x:<input type="number" id="x2" value="300">, y:<input type="number" id="y2" value="300"></p>
+    
+    <p>
+        Show origin points:
+        <select id="origins">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+    </p>
+    <button id="action">Draw!</button>
+    <div id="canvas"></div>
+</body>
+<script src="main.js"></script>
+
+</html>
