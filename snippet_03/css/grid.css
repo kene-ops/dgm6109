@@ -1,0 +1,42 @@
+/* This property selects all the elements in the
+website so as to apply desired size of box
+*/
+* {
+    box-sizing: border-box;
+}
+
+/*this changes the navigating elements to grid and 
+they resize automatically to the size of the browser */
+.grid {
+    display: grid;
+}
+
+.grid.add-gutters { /* add space to the buttons */
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+/* use media query to specify the size of the button */
+
+@media (min-width: 20rem) { /* at 320px, the column should be two */
+
+.grid.two-column {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (min-width: 64rem) {/* at 1024px, web should run in three columns */
+
+.grid.three-column {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
+}
+
+@media (min-width: 120rem) {/* at 1920px, web should run in four columns */
+
+.grid.four-column {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
