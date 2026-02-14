@@ -4,7 +4,6 @@
 Hypothesis:
 As my gym/workout level decreases, my productivity level decreases.
 
-This file contains the structured dataset for my term project.
 The top-level data structure is an Array of daily observations.
 Each observation is represented as an Object.
 */
@@ -47,8 +46,8 @@ let observations = [{
     meditationMinutes: 15,
     meals: 1,
     gym: {
-        weightKg: null,
-        reps: null
+        weightKg: 0,
+        reps: 0
     },
     productivity: {
         tasksCompleted: 1,
@@ -95,8 +94,8 @@ let observations = [{
     meditationMinutes: 18,
     meals: 2,
     gym: {
-        weightKg: null,
-        reps: null
+        weightKg: 0,
+        reps: 0
     },
     productivity: {
         tasksCompleted: 3,
@@ -127,8 +126,8 @@ let observations = [{
     meditationMinutes: 14,
     meals: 1,
     gym: {
-        weightKg: null,
-        reps: null
+        weightKg: 0,
+        reps: 0
     },
     productivity: {
         tasksCompleted: 3,
@@ -143,8 +142,8 @@ let observations = [{
     meditationMinutes: 15,
     meals: 2,
     gym: {
-        weightKg: null,
-        reps: null
+        weightKg: 0,
+        reps: 0
     },
     productivity: {
         tasksCompleted: 1,
@@ -232,5 +231,5 @@ let observations = [{
         remark: "Productive"
     }
 }]; // list of daily observations
-console.log(JSON.stringify(observations));
+
 showData(observations);
