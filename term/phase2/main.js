@@ -22,7 +22,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Productive"
     } // productivity results
-}, // one daily observation
+}, // day one observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-24",
@@ -38,7 +38,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Fairly productive"
     }
-},
+}, // day two observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-26",
@@ -54,7 +54,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Poorly productive"
     }
-},
+}, // day three observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-27",
@@ -70,7 +70,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Productive"
     }
-},
+}, // day four observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-28",
@@ -86,7 +86,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Very productive"
     }
-},
+}, // day five observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-29",
@@ -102,7 +102,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Productive"
     }
-},
+}, // day six observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-01-31",
@@ -118,7 +118,7 @@ let observations = [{
         tasksSet: 2,
         remark: "Very productive"
     }
-},
+}, // day seven observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-02",
@@ -134,7 +134,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Very productive"
     }
-},
+}, // day eight observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-03",
@@ -150,7 +150,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Poorly productive"
     }
-},
+}, // day nine observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-04",
@@ -166,7 +166,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Productive"
     }
-},
+}, // day ten observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-05",
@@ -182,7 +182,7 @@ let observations = [{
         tasksSet: 2,
         remark: "Fairly productive"
     }
-},
+}, // day eleven observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-06",
@@ -198,7 +198,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Productive"
     }
-},
+}, // day twelve observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-07",
@@ -214,7 +214,7 @@ let observations = [{
         tasksSet: 3,
         remark: "Very productive"
     }
-},
+}, // day thirteen observation of sleep, meditation,feeding, workout and productivity
 
 {
     date: "2026-02-09",
@@ -230,6 +230,7 @@ let observations = [{
         tasksSet: 4,
         remark: "Productive"
     }
-}]; // list of daily observations
+} // day fourteen observation of sleep, meditation,feeding, workout and productivity
+]; // list of daily observations
 
 showData(observations);
