@@ -20,7 +20,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 4,
-        remark: "Productive"
+        remark: 3.75
     } // productivity results
 }, // day one observation of sleep, meditation,feeding, workout and productivity
 
@@ -36,7 +36,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 2,
         tasksSet: 4,
-        remark: "Fairly productive"
+        remark: 2.5
     }
 }, // day two observation of sleep, meditation,feeding, workout and productivity
 
@@ -52,7 +52,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 1,
         tasksSet: 3,
-        remark: "Poorly productive"
+        remark: 1.67
     }
 }, // day three observation of sleep, meditation,feeding, workout and productivity
 
@@ -68,7 +68,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 2,
         tasksSet: 3,
-        remark: "Productive"
+        remark: 3.33
     }
 }, // day four observation of sleep, meditation,feeding, workout and productivity
 
@@ -84,7 +84,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 3,
-        remark: "Very productive"
+        remark: 5
     }
 }, // day five observation of sleep, meditation,feeding, workout and productivity
 
@@ -100,7 +100,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 4,
-        remark: "Productive"
+        remark: 3.75
     }
 }, // day six observation of sleep, meditation,feeding, workout and productivity
 
@@ -116,7 +116,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 2,
         tasksSet: 2,
-        remark: "Very productive"
+        remark: 5
     }
 }, // day seven observation of sleep, meditation,feeding, workout and productivity
 
@@ -132,7 +132,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 3,
-        remark: "Very productive"
+        remark: 5
     }
 }, // day eight observation of sleep, meditation,feeding, workout and productivity
 
@@ -148,7 +148,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 1,
         tasksSet: 4,
-        remark: "Poorly productive"
+        remark: 1.25
     }
 }, // day nine observation of sleep, meditation,feeding, workout and productivity
 
@@ -164,7 +164,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 4,
-        remark: "Productive"
+        remark: 3.75
     }
 }, // day ten observation of sleep, meditation,feeding, workout and productivity
 
@@ -180,7 +180,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 1,
         tasksSet: 2,
-        remark: "Fairly productive"
+        remark: 2.5
     }
 }, // day eleven observation of sleep, meditation,feeding, workout and productivity
 
@@ -196,7 +196,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 2,
         tasksSet: 3,
-        remark: "Productive"
+        remark: 3.33
     }
 }, // day twelve observation of sleep, meditation,feeding, workout and productivity
 
@@ -212,7 +212,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 3,
-        remark: "Very productive"
+        remark: 5
     }
 }, // day thirteen observation of sleep, meditation,feeding, workout and productivity
 
@@ -228,7 +228,7 @@ let observations = [{
     productivity: {
         tasksCompleted: 3,
         tasksSet: 4,
-        remark: "Productive"
+        remark: 3.75
     }
 } // day fourteen observation of sleep, meditation,feeding, workout and productivity
 ]; // list of daily observations
