@@ -83,7 +83,7 @@ let yScale = d3.scaleLinear()
 let circles = svg.selectAll("circle")
     .data(dataset)
     .join("circle")
-    .attr("r", 6)
+    .attr("r", 10)
     .attr("cx", d => xScale (d.workout))
     .attr("cy", d => yScale(d.productivity))
     .attr("fill", "black");
@@ -121,7 +121,7 @@ svg.append("text")
 
     //x max label
 svg.append("text")
-    .attr("x", margin - 5)
+    .attr("x", margin - 10)
     .attr("y", margin + 5)
     .attr("text-anchor", "end")
     .text("5");
