@@ -100,7 +100,7 @@ let dataset = observations.map(d => ({
     workout: d.gym,
     sleep: d.sleep,
     productivity: d.productivity
-}));
+})); //Extract observation properties into "dataset"
 
 /*Scales on cavas
 */
@@ -122,7 +122,7 @@ let circles = svg.selectAll("circle")
     .data(dataset)
     .join("circle")
     .attr("r", 10)
-    .attr("cx", d => xScale(d.workout))
+    .attr("cx", d => xScale(d.workout)) //draws and places circle accordingly on scatterplot
     .attr("cy", d => yScale(d.productivity))
     .attr("fill", d => colorScale(d.sleep))
     .attr("opacity", 0.85);
@@ -170,7 +170,7 @@ let keyX = svgWidth - 130;
 let keyY = margin + 280;
 
 let key = svg.append ("g")
-    .attr("transform", `translate(${keyX}, ${keyY})`);//group and position key element in the canvas
+    .attr("transform", "translate(" + keyX + "," + keyY + ")");//group and position the key element in the canvas
 
 key.append("text")
     .attr("x", -5)

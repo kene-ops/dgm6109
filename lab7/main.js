@@ -112,14 +112,14 @@ let originLabel = svg.append("text")
 
 // value labels
 
-//origin label
+//x max label
 svg.append("text")
     .attr("x", svgWidth - margin)
     .attr("y", svgHeight - (margin/3))
     .attr("text-anchor", "middle")
     .text("250");
 
-    //x max label
+    //y max label
 svg.append("text")
     .attr("x", margin - 10)
     .attr("y", margin + 5)
