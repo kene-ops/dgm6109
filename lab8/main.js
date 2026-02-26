@@ -179,7 +179,7 @@ svg.append("line")
     })))
     .attr("stroke", "black");
 
-/* draw circles
+/* draw circles for gym observations
 */
 let circles = svg.selectAll("circle")
     .data(dataset)
@@ -277,6 +277,19 @@ colorKey.forEach(function(d, i) {
         .attr("x", svgWidth - 110)
         .attr("y", 465 + i * 40)
         .text(d.label);
+
+/* Value Labels */
+let xAxis = d3.axisBottom(xScale)
+    .ticks(6);
+svg.append("g")
+    .attr("transform", "translate(0," + (svgHeight - bottomMargin) + ")")
+    .call(xAxis);
+
+let yAxis = d3.axisLeft(yScale)
+    .ticks(6);
+svg.append("g")
+    .attr("transform", "translate(" + leftMargin + ",0)")
+    .call(yAxis);
 });
 
 
