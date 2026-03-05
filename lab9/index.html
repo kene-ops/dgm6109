@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 9: Index</title>
+</head>
+<body>
+
+    <h1>Lab 9: Best 2 Scatterplots</h1>
+    <p>Submitted by: Kenechukwu Okongwu</p>
+
+    <hr>
+
+    <h3>Links to My Visualizations</h3>
+    <ul>
+        <li>
+            <a href="./plot1/index.html">Plot 1: As my gym level increase, productvity increase. (Using filter)</a>
+        </li>
+        <li>
+            <a href="./plot2/index.html">Plot 2: Does the duration of my meditation affect my productivity? (Using sort)</a>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Technical Explanation</h3>
+
+    <h4>How I used Array.filter()</h4>
+    <p>
+        In Plot 1, I used <code>Array.filter()</code> to create a more focused observations. 
+        I specifically filtered the data to remove days where i didn't go to the gym. 
+        This was useful because i wanted to see if the effect of the combination of gym and High-Sleep
+        on my level of productivity.
+    </p>
+    </p>
+
+    <h4>How I used Array.sort()</h4>
+    <p>
+        In Plot 2, I used <code>Array.sort()</code> to organize my data based on the workout intensity (reps). 
+        In D3.js, elements are drawn in order; by sorting the largest values to appear first in the array, 
+        I ensured that smaller circles are drawn on top of larger ones. This prevents data loss where a small 
+        bubble might be hidden behind a large one.
+
+    <hr>
+
+</body>
+</html>
