@@ -124,7 +124,7 @@ let dataset = observations
         productivity: d.productivity
 }));
 
-// Chart dimensions
+// Chart or container dimensions
 
 let innerWidth = svgWidth - leftMargin - rightMargin;
 let innerHeight = svgHeight - topMargin - bottomMargin;
