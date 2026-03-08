@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phase 3b – Term Project Visualization Sketches</title>
+
+  <style>
+    body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            width: 800px;
+            margin: auto;
+        }
+
+        svg {
+            display: block;
+            margin: auto;
+        }
+
+        .axis-label {
+            font-size: 12px;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 6px;
+            font-size: 12px;
+            background: white;
+            border: 1px solid #000;
+            pointer-events: none;
+            opacity: 0;
+        }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Phase 3b – Visualization Sketch Proposals</h1>
+  <h3>Kenechukwu Okongwu</h3>
+
+  <hr>
+
+  <h2>Dataset Description</h2>
+
+  <p>
+    My dataset consists of daily personal observations collected over a two-week period.
+    Each daily record includes measurements of sleep duration, meditation duration, number of meals,
+    gym/workout level, and productivity level. The goal of collecting this data is to ascertain how my gym/workout level
+    affect my level of productivity. Hypothesis: as my gym level decreases, my level of productivity decreases. Additionally,
+    sleeping duration, feeding and meditation might also have impact on my productivity.
+  </p>
+
+  <p>
+    Each observation is recorded as a single day, allowing analysis of correlations between
+    gym, sleep, meditation, feeding and productivity level.
+  </p>
+
+  <h3>Data Variables, Units, and Ranges</h3>
+
+  <ul>
+    <li><strong>Sleep:</strong> Minutes per night (240 – 480 minutes)</li>
+    <li><strong>Meditation:</strong> Minutes per day (10 – 18 minutes)</li>
+    <li><strong>Meals:</strong> Count per day (1 – 3 meals)</li>
+    <li><strong>Gym / Workout:</strong> Minutes per day (0 – 240 reps)</li>
+    <li><strong>Productivity:</strong> Set Tasks /tasks completed (1 – 5 scale)</li>
+  </ul>
+
+  <hr>
+
+  <div class="sketch">
+
+    <h2>Sketch 1 – Multi-Dimensional Scatterplot / Bubble Plot</h2>
+
+    <h3>Hypothesis</h3>
+
+    <p>
+      As my daily gym/workout level decreases, my productivity level also decreases.
+      Additionally, reduced sleep duration and fewer meals further lower productivity.
+    </p>
+
+    <h3>Data Elements Used</h3>
+
+    <ul>
+      <li>Gym (number of reps)</li>
+      <li>Productivity (1 – 5)</li>
+      <li>Sleep duration (minutes)</li>
+      <li>Meals (1-3)</li>
+    </ul>
+
+    <h3>Visual Representation</h3>
+
+    <ul>
+      <li><strong>X-axis:</strong> Gym (reps)</li>
+      <li><strong>Y-axis:</strong> Sleep duration (minutes)</li>
+      <li><strong>Colored Rectangles:</strong> Productvity</li>
+      <li><strong>Dots</strong> Number of meals</li>
+    </ul>
+
+    <p>
+      This visualization builds on the scatterplot and bubble plot concepts practiced in class
+      while creatively extending them to incorporate multiple visual encodings with rectangular shape.
+    </p>
+
+    <p>
+      <a href="sketch1.pdf">View Sketch 1 (PDF)</a>
+    </p>
+
+  </div>
+
+  <div class="sketch">
+
+    <h2>Sketch 2 – Productivity Heatmap</h2>
+
+    <h3>Hypothesis</h3>
+
+    <p>
+        As my meal consumption improves, my productivity improves. Additionally,
+        increased gym level and sleep duration might increase productvity.
+    </p>
+
+    <h3>Data Elements Used</h3>
+
+    <ul>
+      <li>Sleep (minutes)</li>
+      <li>Date (Observation date)</li>
+      <li>Gym (number of reps)</li>
+      <li>Productivity (1 – 5)</li>
+      <li>Meals (1-3)</li>
+    </ul>
+
+    <h3>Visual Representation</h3>
+
+    <ul>
+      <li><strong>X-axis:</strong> Meals (1-3), sleep (minutes), Gym (raps), Productivity (1-5) </li>
+      <li><strong>Y-axis:</strong> Date (Observation dates)</li>
+      <li><strong>Cell colors:</strong> gray(undefined), Yellow(low), Orange(medium), Red(High) </li>
+    </ul>
+
+    <p>
+      This heatmap allows rapid detection of patterns and correlations between Meal, Gym and Sleep
+      while revealing their combined influence on productivity.
+    </p>
+
+    <p>
+      <a href="sketch2.pdf">View Sketch 2 (PDF)</a>
+    </p>
+
+  </div>
+
+  <div class="sketch">
+
+    <h2>Sketch 3 – Creative Visualization</h2>
+
+    <h3>Research Question</h3>
+
+    <p>
+      Which factor or variable affects my productivity level: sleep, gym, or feeding?
+    </p>
+
+    <h3>Data Elements Used</h3>
+
+    <ul>
+      <li>Gym level</li>
+      <li>Productivity level</li>
+      <li>Sleep duration</li>
+      <li>Meals</li>
+    </ul>
+
+    <h3>Visual Representation</h3>
+
+    <ul>
+      <li><strong>Vertical line(s):</strong> Gym level</li>
+      <li><strong>Flower pod:</strong> Productivity level</li>
+      <li><strong>Color:</strong> Sleep duration</li>
+      <li><strong>Dots:</strong> Number of meals</li>
+    </ul>
+
+    <p>
+      Each day is represented as a cluster, creating a visually and holistic
+      representation of daily observations. This creative approach is inspired by experimental
+      data visualization from the “Dear Data”.
+    </p>
+
+    <p>
+      <a href="sketch3.pdf">View Sketch 3 (PDF)</a>
+    </p>
+</div>
+
+  <hr>
+
+  <h2>Design Credits and Resources</h2>
+
+  <p>
+    Design inspiration and conceptual guidance were drawn from the following visualization
+    resources:
+  </p>
+
+  <ul>
+    <li>Dear Data – for creative visualization and symbolic encoding.</li>
+    <li>Data Visualization Catalogue – for understanding suitable plot types and their strengths.</li>
+    <li>Observable D3 Gallery – for layout inspiration and visualization structure.</li>
+  </ul>
+
+  <p>
+    These sources influenced my thinking about how to creatively represent multiple dimensions
+    of data while maintaining clarity.
+  </p>
+
+
+</body>
+</html>
