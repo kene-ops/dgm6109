@@ -230,7 +230,215 @@ let observations = [{
         tasksSet: 4,
         remark: 3.75
     }
-} // day fourteen observation of sleep, meditation,feeding, workout and productivity
+}, // day fourteen observation of sleep, meditation,feeding, workout and productivity
+
+{
+    date: "2026-02-14",
+    sleepMinutes: 360,
+    meditationMinutes: 6,
+    meals: 3,
+    gym: {
+        weightKg: 0,
+        reps: 0
+    },
+    productivity: {
+        tasksCompleted: 2,
+        tasksSet: 4,
+        remark: 2.5
+    }
+}, 
+
+{
+    date: "2026-02-16",
+    sleepMinutes: 360,
+    meditationMinutes: 9,
+    meals: 2,
+    gym: {
+        weightKg: 80,
+        reps: 200
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 4,
+        remark: 3.75
+    }
+}, 
+
+{
+    date: "2026-02-23",
+    sleepMinutes: 405,
+    meditationMinutes: 8,
+    meals: 2,
+    gym: {
+        weightKg: 82,
+        reps: 210
+    },
+    productivity: {
+        tasksCompleted: 4,
+        tasksSet: 4,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-02-24",
+    sleepMinutes: 390,
+    meditationMinutes: 12,
+    meals: 2,
+    gym: {
+        weightKg: 78,
+        reps: 210
+    },
+    productivity: {
+        tasksCompleted: 5,
+        tasksSet: 5,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-02-25",
+    sleepMinutes: 360,
+    meditationMinutes: 12,
+    meals: 1,
+    gym: {
+        weightKg: 80,
+        reps: 50
+    },
+    productivity: {
+        tasksCompleted: 4,
+        tasksSet: 4,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-03-05",
+    sleepMinutes: 390,
+    meditationMinutes: 10,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 200
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 3,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-03-06",
+    sleepMinutes: 405,
+    meditationMinutes: 8,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 200
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 3,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-03-07",
+    sleepMinutes: 390,
+    meditationMinutes: 10,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 210
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 4,
+        remark: 3.75
+    }
+}, 
+
+{
+    date: "2026-03-08",
+    sleepMinutes: 400,
+    meditationMinutes: 5,
+    meals: 1,
+    gym: {
+        weightKg: 0,
+        reps: 0
+    },
+    productivity: {
+        tasksCompleted: 2,
+        tasksSet: 3,
+        remark: 3.75
+    }
+}, 
+
+{
+    date: "2026-03-09",
+    sleepMinutes: 300,
+    meditationMinutes: 8,
+    meals: 3,
+    gym: {
+        weightKg: 92,
+        reps: 250
+    },
+    productivity: {
+        tasksCompleted: 4,
+        tasksSet: 4,
+        remark: 5
+    }
+}, 
+
+{
+    date: "2026-03-10",
+    sleepMinutes: 420,
+    meditationMinutes: 10,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 150
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 4,
+        remark: 3.75
+    }
+},
+
+{
+    date: "2026-03-11",
+    sleepMinutes: 400,
+    meditationMinutes: 8,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 240
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 3,
+        remark: 5
+    }
+},
+
+{
+    date: "2026-03-12",
+    sleepMinutes: 420,
+    meditationMinutes: 10,
+    meals: 2,
+    gym: {
+        weightKg: 90,
+        reps: 240
+    },
+    productivity: {
+        tasksCompleted: 3,
+        tasksSet: 4,
+        remark: 3.75
+    }
+} 
 ]; // list of daily observations
 
 showData(observations);
