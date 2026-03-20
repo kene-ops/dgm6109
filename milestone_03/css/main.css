@@ -1,6 +1,6 @@
 *{
 margin:0;
-padding:0;
+padding:2px;
 box-sizing:border-box;
 font-family:Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@ line-height:1.6;
 /* ---------- GRID SYSTEM ---------- */
 
 .container{
-max-width:1200px;
+max-width:1270px;
 margin:auto;
 padding:0 20px;
 }
@@ -53,11 +53,16 @@ font-weight:700;
 }
 
 .btn{
-background:#2177da;
+background:#0b88ba;
 color:white;
-padding:10px 18px;
+padding:12px 20px;
 border-radius:6px;
 text-decoration:none;
+font-weight: bold;
+transition: 0.3s;
+}
+.btn:hover{
+    background:#096a92;
 }
 
 /* ---------- HERO ---------- */
@@ -138,39 +143,25 @@ margin-top:60px;
 
 /* ---------- RESPONSIVE ---------- */
 
-@media(max-width:1024px){
+@media (min-width: 20rem) { /* at 320px, the column should be two */
 
-.grid{
-grid-template-columns:repeat(8,1fr);
+.grid.two-column {
+    grid-template-columns: 1fr 1fr;
+}
 }
 
-.hero-text{
-grid-column:span 8;
+@media (min-width: 64rem) {/* at 1024px, web should run in three columns */
+
+.grid.three-column {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
 }
 
-.hero-image{
-grid-column:span 8;
-margin-top:30px;
-}
+@media (min-width: 120rem) {/* at 1920px, web should run in four columns */
 
-.feature{
-grid-column:span 4;
-}
-
-.form{
-grid-column:span 8;
-}
-
-}
-
-@media(max-width:600px){
-
-.grid{
-grid-template-columns:repeat(4,1fr);
-}
-
-.feature{
-grid-column:span 4;
-}
-
-}
+.grid.four-column {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+} 

@@ -42,9 +42,6 @@
         }
   </style>
 
-    <!--
-        Be sure to check what is in the main.css to see if you want to use it. You can also replace the contents of this file with your own CSS. You should remove the main.css file and the link tag below if you decide not to use CSS!
-    -->
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
@@ -81,7 +78,14 @@
         <h2>Hypothesis</h2> 
             <p> As my workout increases, my productivity increases.</p> 
             
-        <h3>Data Elements Used</h3>
+        <h3>Data Collection and Elements Used</h3>
+        <p>
+            My data collection spread across sleep(minutes), feeding(meals/pay), gym (weight(kg) and reps), 
+            meditation(minutes), and productivity. However, I did not include meditation 
+            in this visualization. The data I used for gym is only “number of reps”, 
+            while I calculated productivity by the number of daily tasks / the number 
+            of completed tasks; on a scale of 1-5. Data elements used are:
+        </p>
 
         <ul>
             <li>Gym (number of reps)</li>
@@ -94,8 +98,9 @@
 
             <p> The visualization uses a scatterplot format to represent relationships between the variables (gym, sleep, feeding and productivity). 
                 Each rectangle represents one day of observations. Multiple visual encodings are used to display 
-                different aspects of the dataset simultaneously. in addition to gym level, the visualization further assessed 
-                the impact of improved feeding and sleeping duration on productivity. 
+                different aspects of the dataset simultaneously. In addition to gym level, the visualization further assessed 
+                the impact of improved feeding and sleeping duration on productivity. As my workout increases, my productivity level increases. In addition, 
+                better sleep duration and higher feeding might positively affect my productivity level.
                 This project examines how these lifestyle variables interact and how they relate to my daily productivity levels.
             </p> 
 
@@ -109,8 +114,8 @@
         <h3>Color Legend</h3> 
         
         <ul> 
-            <li>Yellow – Low sleep duration</li> 
-            <li>Orange – Medium sleep duration</li> 
+            <li>Red – Low sleep duration</li> 
+            <li>Blue – Medium sleep duration</li> 
             <li>Green – High sleep duration</li> 
         </ul>
 
@@ -125,10 +130,7 @@
     </div>
 
     <div id="canvas"></div>
-    <!-- 
-        Don't forget to write all required explanatory text on this web page!
-        In addition, be sure to remove all comments not written by you!
-    -->
+
 <h2>Interpretation</h2> 
 
 <p> 
@@ -144,8 +146,5 @@
     and productivity simultaneously. 
 </p>
 </body>
-<!--
-    You only need to have one script, your main.js. However, if you want to break up your project into several files, you should load them following the example below.
--->
 <script src="main.js"></script>
 </html>
