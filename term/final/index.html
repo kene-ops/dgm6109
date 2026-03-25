@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Kenechukwu Okongwu</title>
+
+    <script src="d3.min.js"></script>
+
+<style>
+    body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            width: 800px;
+            margin: auto;
+        }
+
+        svg {
+            display: block;
+            margin: auto;
+        }
+
+        .axis-label {
+            font-size: 12px;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 6px;
+            font-size: 12px;
+            background: white;
+            border: 1px solid #000;
+            pointer-events: none;
+            opacity: 0;
+        }
+  </style>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Relationship Between Workout, Sleep, Feeding and Productivity</h1>
+        <h3>Kenechukwu Okongwu</h3>
+        
+        <hr>
+        
+        <h2>Dataset Description</h2>
+
+        <p>
+            My dataset consists of daily personal observations collected between January and March 2026.
+            Each daily record includes measurements of sleep duration, meditation duration, number of meals,
+            gym/workout level, and productivity level. The goal of collecting this data is to ascertain how my gym/workout level
+            affect my level of productivity. It further assesses the influence of other listed daily activities on my daily productivity.
+        </p>
+            
+        <p>
+            Each observation is recorded as a single day, allowing analysis of correlations between
+            gym, sleep, meditation, feeding and productivity level.
+        </p> 
+        
+        <ul>
+            <li><b>Date:</b> The day the observation was recorded.</li>
+            <li><b>Gym Activity:</b> Number of workout repetitions performed that day.</li>
+            <li><b>Meals:</b> Number of meals consumed that day.</li>
+            <li><b>Meditation:</b> Minutes spent meditating.</li> 
+            <li><b>Sleep Duration:</b> Categorized as low, medium, or high.</li> 
+            <li><b>Productivity:</b> Self-assessed productivity score ranging from 1 to 5.</li> 
+        </ul>
+
+        <h2>Hypothesis</h2> 
+            <p> As my workout increases, my productivity increases.</p> 
+            
+        <h3>Data Collection and Elements Used</h3>
+        <p>
+            My data collection spread across sleep(minutes), feeding(meals/pay), gym (weight(kg) and reps), 
+            meditation(minutes), and productivity. However, I did not include meditation 
+            in this visualization. The data I used for gym is only “number of reps”, 
+            while I calculated productivity by the number of daily tasks / the number 
+            of completed tasks; on a scale of 1-5. Data elements used are:
+        </p>
+
+        <ul>
+            <li>Gym (number of reps)</li>
+            <li>Productivity (1 - 5)</li>
+            <li>Sleep Duration (minutes)</li>
+            <li>Meals (count/day)</li>
+        </ul>
+
+        <h2>Visualization Design</h2> 
+
+            <p> The visualization uses a scatterplot format to represent relationships between the variables (gym, sleep, feeding and productivity). 
+                Each rectangle represents one day of observations. Multiple visual encodings are used to display 
+                different aspects of the dataset simultaneously. In addition to gym level, the visualization further assessed 
+                the impact of improved feeding and sleeping duration on productivity. As my workout increases, my productivity level increases. In addition, 
+                better sleep duration and higher feeding might positively affect my productivity level.
+                This project examines how these lifestyle variables interact and how they relate to my daily productivity levels.
+            </p> 
+
+            <ul> 
+                <li><b>X-Axis:</b> Gym activity (number of workout repetitions).</li> 
+                <li><b>Y-Axis:</b> Productivity level.</li> 
+                <li><b>Rectangle:</b> Represents an individual observation.</li> 
+                <li><b>Color:</b> Represents sleep duration.</li> 
+                <li><b>Dots inside rectangles:</b> Represent number of meals eaten that day.</li> 
+            </ul>
+        <h3>Color Legend</h3> 
+        
+        <ul> 
+            <li>Red – Low sleep duration</li> 
+            <li>Blue – Medium sleep duration</li> 
+            <li>Green – High sleep duration</li> 
+        </ul>
+
+        <h3>Dots Legend</h3>
+
+        <ul>
+            <li><b>(.)</b> - One meal</li>
+            <li><b>(..)</b> - Two meals</li>
+            <li><b>(...)</b> - Three meals</li>
+        </ul>
+
+    </div>
+
+    <div id="canvas"></div>
+
+<h2>Interpretation</h2> 
+
+<p> 
+    Initial observations suggest that higher workout activity tends to appear alongside 
+    higher productivity levels. Days with sufficient sleep and regular meals also appear to correspond 
+    with stronger productivity outcomes. However, some exceptions exist in the dataset, indicating that 
+    productivity is influenced by multiple factors and not solely by exercise or sleep. 
+</p>
+
+<p> 
+    Each rectangle plotted in the chart represents a daily observation from the dataset. 
+    The visualization allows viewers to compare workout levels, sleep patterns, feeding habits, 
+    and productivity simultaneously. 
+</p>
+</body>
+<script src="main.js"></script>
+</html>

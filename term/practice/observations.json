@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2026-01-23",
+    "gym": 215,
+    "meals": 2,
+    "meditation": 15,
+    "sleep": "medium",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-01-24",
+    "gym": 180,
+    "meals": 2,
+    "meditation": 16,
+    "sleep": "medium",
+    "productivity": 2.5
+  },
+  {
+    "date": "2026-01-26",
+    "gym": 0,
+    "meals": 1,
+    "meditation": 15,
+    "sleep": "low",
+    "productivity": 1.67
+  },
+  {
+    "date": "2026-01-27",
+    "gym": 200,
+    "meals": 2,
+    "meditation": 14,
+    "sleep": "medium",
+    "productivity": 3.33
+  },
+  {
+    "date": "2026-01-28",
+    "gym": 245,
+    "meals": 3,
+    "meditation": 15,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "gym": 0,
+    "meals": 2,
+    "meditation": 18,
+    "sleep": "low",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-01-31",
+    "gym": 80,
+    "meals": 2,
+    "meditation": 15,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "gym": 0,
+    "meals": 1,
+    "meditation": 14,
+    "sleep": "medium",
+    "productivity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "gym": 0,
+    "meals": 2,
+    "meditation": 15,
+    "sleep": "low",
+    "productivity": 1.25
+  },
+  {
+    "date": "2026-02-04",
+    "gym": 70,
+    "meals": 1,
+    "meditation": 15,
+    "sleep": "medium",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-02-05",
+    "gym": 160,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "low",
+    "productivity": 2.5
+  },
+  {
+    "date": "2026-02-06",
+    "gym": 110,
+    "meals": 2,
+    "meditation": 15,
+    "sleep": "low",
+    "productivity": 3.33
+  },
+  {
+    "date": "2026-02-07",
+    "gym": 120,
+    "meals": 2,
+    "meditation": 15,
+    "sleep": "medium",
+    "productivity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "gym": 100,
+    "meals": 2,
+    "meditation": 14,
+    "sleep": "high",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-02-14",
+    "gym": 0,
+    "meals": 3,
+    "meditation": 6,
+    "sleep": "medium",
+    "productivity": 2.5
+  },
+  {
+    "date": "2026-02-16",
+    "gym": 200,
+    "meals": 2,
+    "meditation": 9,
+    "sleep": "medium",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-02-23",
+    "gym": 220,
+    "meals": 2,
+    "meditation": 14,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "gym": 210,
+    "meals": 2,
+    "meditation": 12,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-02-25",
+    "gym": 50,
+    "meals": 1,
+    "meditation": 12,
+    "sleep": "medium",
+    "productivity": 5
+  },
+  {
+    "date": "2026-03-05",
+    "gym": 205,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-03-06",
+    "gym": 200,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-03-07",
+    "gym": 210,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-03-08",
+    "gym": 0,
+    "meals": 1,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-03-09",
+    "gym": 250,
+    "meals": 3,
+    "meditation": 10,
+    "sleep": "medium",
+    "productivity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "gym": 150,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 3.75
+  },
+  {
+    "date": "2026-03-11",
+    "gym": 240,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "gym": 240,
+    "meals": 2,
+    "meditation": 10,
+    "sleep": "high",
+    "productivity": 3.75
+  }
+]
