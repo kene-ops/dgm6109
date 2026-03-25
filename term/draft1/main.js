@@ -51,7 +51,7 @@ function buildScales(data) {
 /* colors for different levels of sleep duration */
     colorScale = d3.scaleOrdinal()
         .domain (["low", "medium", "high"])
-        .range(["red", "blue", "green"])
+        .range(["yellow", "orange", "green"])
 }
 
 function organizeData(data) {
@@ -148,7 +148,7 @@ drawing.selectAll("g.mealCircles")
                 .attr("cx", startingX + (i * 8))
                 .attr("cy", y )
                 .attr("r", 2.5)
-                .attr("fill","white")
+                .attr("fill","black")
 
         }
     })
